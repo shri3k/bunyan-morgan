@@ -1,0 +1,30 @@
+{
+  "name": "bunyan-morgan",
+  "version": "1.0.0",
+  "description": "Gives bunyan like (js object format) format to morgan's log format",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js tests/test.js && NODE_ENV=test node tests/test",
+    "posttest": "istanbul cover tests/test.js && cat ./coverage/lcov.info | coveralls"
+  },
+  "keywords": [
+    "bunyan",
+    "morgan",
+    "bunyan-morgan",
+    "serializer"
+  ],
+  "author": "shri3k",
+  "license": "MIT",
+  "dependencies": {
+    "morgan": "^1.7.0",
+    "on-finished": "^2.3.0"
+  },
+  "devDependencies": {
+    "bunyan": "^1.8.1",
+    "coveralls": "^2.11.14",
+    "eslint": "^3.7.0",
+    "express": "^4.14.0",
+    "istanbul": "^0.4.5",
+    "tape": "^4.6.2"
+  }
+}
