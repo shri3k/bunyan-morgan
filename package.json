@@ -13,6 +13,14 @@
     "bunyan-morgan",
     "serializer"
   ],
+	"repository":{
+		"type": "git",
+		"url": "https://github.com/shri3k/bunyan-morgan.git"
+	},
+	"homepage": "https://github.com/shri3k/bunyan-morgan/blob/master/README.md",
+	"bugs": {
+		"url" : "https://github.com/shri3k/bunyan-morgan/issues"
+	},
   "author": "shri3k",
   "license": "MIT",
   "dependencies": {
