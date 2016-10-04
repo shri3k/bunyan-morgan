@@ -1,6 +1,6 @@
 {
   "name": "bunyan-morgan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gives bunyan like (js object format) format to morgan's log format",
   "main": "index.js",
   "scripts": {
@@ -13,14 +13,14 @@
     "bunyan-morgan",
     "serializer"
   ],
-	"repository":{
-		"type": "git",
-		"url": "https://github.com/shri3k/bunyan-morgan.git"
-	},
-	"homepage": "https://github.com/shri3k/bunyan-morgan/blob/master/README.md",
-	"bugs": {
-		"url" : "https://github.com/shri3k/bunyan-morgan/issues"
-	},
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/shri3k/bunyan-morgan.git"
+  },
+  "homepage": "https://github.com/shri3k/bunyan-morgan/blob/master/README.md",
+  "bugs": {
+    "url" : "https://github.com/shri3k/bunyan-morgan/issues"
+  },
   "author": "shri3k",
   "license": "MIT",
   "dependencies": {
